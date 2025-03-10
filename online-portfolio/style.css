@@ -1,14 +1,75 @@
-h1 {
-    color: #725749;
-    font-family: "Bricolage Grotesque", serif;
+/*
+ * My Color Pallette
+ * #d6cac5
+ * #cddae9
+ * #725749
+ * #b07a5a
+ * #2e2e2e
+ * #f5f5ef
+ */
+
+@media {
+    h1 {
+        color: #725749;
+        font-family: "Bricolage Grotesque", serif;
+        font-size: 20px;
+        margin: 10px 0px 0px 10px;
+    }
+    h2 {
+        color: #b07a5a;
+        font-family: "Bricolage Grotesque", serif;
+        font-size: 20px;
+        margin: 10px 0px 0px 10px;
+    }
+    img {
+        width: 35%;
+        border-radius: 12px;
+        margin: auto;
+        display: block;
+    }
+    body {
+        background-color: #cddae9;
+    }
+
+    button {
+        border-radius: 45px;
+        border: none;
+        background-color: #b07a5a;
+        color: #d6cac5;
+        width: 150px;
+        padding: 10px 15px 10px 15px;
+        font-size: 15px;
+        margin: 10px 1px 1px 10px;
+    }
+    button:hover {
+        background-color: #725749;
+    }
+
+    #topper {
+        background-color: #cddae9;
+    }
+
+    #navigation {
+        background-color: #d6cac5;
+        margin-top: 50px;
+        font-size: 15px;
+        font-family: "Bricolage Grotesque", serif;
+    }
+    #navigation a {
+        color:#725749;
+    }
+
+    h3 {
+        font-size: 10px;
+        color: #2e2e2e;
+        font-family: "Bricolage Grotesque", serif;
+        padding: 10px 5px 5px 10px;
+        text-align: center;
+    }
+    h4 {
+        font-family: "Bricolage Grotesque", serif;
+        color: #b07a5a;
+    }
 }
-h2 {
-    color: #b07a5a;
-    font-family: "Bricolage Grotesque", serif;
-}
-img {
-    width: 100%;
-}
-body {
-    background-color: #cddae9;
+@media (min-width: 576px) {
 }
