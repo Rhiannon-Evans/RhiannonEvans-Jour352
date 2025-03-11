@@ -12,17 +12,19 @@
     h1 {
         color: #725749;
         font-family: "Bricolage Grotesque", serif;
-        font-size: 20px;
-        margin: 10px 0px 0px 10px;
+        font-size: 30px;
+        margin: 45px 0px 0px 10px;
+        text-align left;
     }
     h2 {
         color: #b07a5a;
         font-family: "Bricolage Grotesque", serif;
-        font-size: 20px;
+        font-size: 25px;
         margin: 10px 0px 0px 10px;
+        text-align: left;
     }
     img {
-        width: 35%;
+        width: 50%;
         border-radius: 12px;
         margin: auto;
         display: block;
@@ -50,13 +52,16 @@
     }
 
     #navigation {
-        background-color: #d6cac5;
+        background-color: #b07a5a;
         margin-top: 50px;
         font-size: 15px;
         font-family: "Bricolage Grotesque", serif;
     }
     #navigation a {
-        color:#725749;
+        color:#2e2e2e;
+    }
+    #navigation a:hover {
+        color:#cddae9;
     }
 
     h3 {
@@ -68,7 +73,29 @@
     }
     h4 {
         font-family: "Bricolage Grotesque", serif;
+        color: #d6cac5;
+        background-color: #b07a5a;
+        padding: 10px;
+        text-align: center;
+    }
+    .jobtitle {
+        font-family: "Bricolage Grotesque", serif;
+        color: #725749;
+        font-size: 30px;
+        padding-left: 10px
+    }
+    .organization {
+        font-family: "Bricolage Grotesque", serif;
+        font-size: 20px;
         color: #b07a5a;
+        padding-left: 10px;
+    }
+    .detes {
+        font-family: "Bricolage Grotesque", serif;
+        color: #2e2e2e;
+        background-color: #d6cac5;
+        padding-left: 10px;
+        font-size: 15px;
     }
 }
 @media (min-width: 576px) {
