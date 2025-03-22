@@ -14,7 +14,7 @@
         font-family: "Bricolage Grotesque", serif;
         font-size: 30px;
         margin: 45px 0px 0px 10px;
-        text-align left;
+        text-align: left;
     }
     h2 {
         color: #b07a5a;
@@ -41,19 +41,18 @@
         width: 150px;
         padding: 10px 15px 10px 15px;
         font-size: 15px;
-        margin: 10px 1px 1px 10px;
+        margin: 10px 10px 10px 10px;
     }
     button:hover {
         background-color: #725749;
     }
-
-    #topper {
-        background-color: #cddae9;
+    button a {
+        color: #d6cac5;
     }
 
     #navigation {
         background-color: #b07a5a;
-        margin-top: 50px;
+        margin-bottom: 10px;
         font-size: 15px;
         font-family: "Bricolage Grotesque", serif;
     }
@@ -76,7 +75,9 @@
         color: #d6cac5;
         background-color: #b07a5a;
         padding: 10px;
+        margin-top: 10px;
         text-align: center;
+        font-size: 30px;
     }
     .jobtitle {
         font-family: "Bricolage Grotesque", serif;
@@ -97,6 +98,66 @@
         padding-left: 10px;
         font-size: 15px;
     }
+    h5 {
+        font-family: "Bricolage Grotesque", serif;
+        text-align: center;
+        color:#d6cac5;
+        background-color:#b07a5a;
+        padding: 10px;
+        font-size: 30px;
+    }
+    .school {
+        font-family: "Bricolage Grotesque", serif;
+        font-size: 20px;
+        color: #725749;
+        text-align: center;
+    }
+    .degree {
+        font-family: "Bricolage Grotesque", serif;
+        font-size: 15px;
+        color: #725749;
+        text-align: center;
+    }
+    .date {
+        font-family: "Bricolage Grotesque", serif;
+        font-size: 15px;
+        color: #725749;
+        text-align: center;
+    }
+    h6 {
+        font-family: "Bricolage Grotesque", serif;
+        text-align: center;
+        color:#d6cac5;
+        background-color:#b07a5a;
+        padding: 10px;
+        font-size: 30px;
+    }
+    ul {
+        font-family: "Bricolage Grotesque", serif;
+        font-size: 15px;
+        color:#2e2e2e;
+        background-color: #d6cac5;
+        text-align: center;
+    }
 }
 @media (min-width: 576px) {
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 60px; 
+    }
+    button {
+        border-radius: 85px;
+        font-size: 35px;
+        width: 250px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+     #navigation {
+         margin-bottom: 20px;
 }
+    h4 {
+        margin-top: 20px;
+    }
