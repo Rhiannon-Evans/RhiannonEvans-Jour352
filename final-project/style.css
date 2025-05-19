@@ -1,0 +1,49 @@
+/*
+ *background color: #fff8ec
+text color:
+*/
+@media screen {
+    body{
+        background-color:#fff8ec;
+         font-family: "Newsreader", serif;
+    }
+    h1{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .topper{
+         font-family: "Newsreader", serif;
+    }
+    p{
+        font-size: 30px;
+    }
+    img{
+        width:100%;
+    }
+    #content {
+        width:100%;
+    }
+    .quote{
+        font-family: "Newsreader", serif;
+        font-size: 60px;
+    }
+    .disclaimer{
+        font-size: 10px;
+    }
+}
+@media (min-width:576px){
+    #content {
+        width:80%;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+@media (min-width:768px){
+    #content {
+        width:60%;
+    }
+     p{
+        font-size: 25px;
+    }
+}
